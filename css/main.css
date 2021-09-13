@@ -56,7 +56,7 @@ body {background-color: #2a363b;}
 .background .fp-tableCell {vertical-align: 0;}
 
 /*menu*/
-.menu {position: absolute; z-index: 10;}
+.menu {position: absolute; z-index: 210; width:10vw; height:10vw;}
 .menu a p {font-size: 3vw; color: white; font-family: 'paybooc-Bold'; margin: 2vw 0 0 2vw; /*width: 2vw; height: 2vw;*/ position: fixed;}
 .menu a p:hover {color: #ff847c;}
 #mo_sub_menu{display: none;}
