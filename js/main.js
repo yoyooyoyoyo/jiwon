@@ -20,53 +20,53 @@ $(function(){
             afterLoad:function(anchorLink, index, direction) {
                 //4번째 section에서 자식 콘텐츠에 active설정
                 if(index==1) {
-                    $(".introduce .intro_wrap .intro_right").removeClass("active");
-                    $('.intro_right .skill__inner-bar').removeClass('active');
-                    $(".intro_left").removeClass("active");
-                    $(".edit_design .slide_wrap .left_box").removeClass("active");
-                    $(".edit_design .slide_wrap .right_box").removeClass("active");
-                    $(".web_port .slide_wrap .left_box .left_web").removeClass("active");
-                    $(".web_port .slide_wrap .explain").removeClass("active");
+                    $(".introduce .pc_intro_wrap .intro_right").removeClass("active");
+                    $('.pc_intro_wrap .intro_right .skill__inner-bar').removeClass('active');
+                    $(".pc_intro_wrap .intro_left").removeClass("active");
+                    $(".pc_edit_design .slide_wrap .left_box").removeClass("active");
+                    $(".pc_edit_design .slide_wrap .right_box").removeClass("active");
+                    $(".pc_web_port .slide_wrap .left_box .left_web").removeClass("active");
+                    $(".pc_web_port .slide_wrap .explain").removeClass("active");
                     $(".Bye footer > div").removeClass("active");
                 }
                 if(index==2) {
-                    $(".introduce .intro_wrap .intro_right").removeClass("active");
-                    $('.intro_right .skill__inner-bar').removeClass('active');
-                    $(".intro_left").removeClass("active");
-                    $(".edit_design .slide_wrap .left_box").addClass("active");
-                    $(".edit_design .slide_wrap .right_box").addClass("active");
-                    $(".web_port .slide_wrap .left_box .left_web").removeClass("active");
-                    $(".web_port .slide_wrap .explain").removeClass("active");
+                    $(".introduce .pc_intro_wrap .intro_right").removeClass("active");
+                    $('.pc_intro_right .skill__inner-bar').removeClass('active');
+                    $(".pc_intro_left").removeClass("active");
+                    $(".pc_edit_design .slide_wrap .left_box").addClass("active");
+                    $(".pc_edit_design .slide_wrap .right_box").addClass("active");
+                    $(".pc_web_port .slide_wrap .left_box .left_web").removeClass("active");
+                    $(".pc_web_port .slide_wrap .explain").removeClass("active");
                     $(".Bye footer > div").removeClass("active");
                 }
                 if(index==3) {
-                    $(".introduce .intro_wrap .intro_right").removeClass("active");
-                    $('.intro_right .skill__inner-bar').removeClass('active');
-                    $(".intro_left").removeClass("active");
-                    $(".edit_design .slide_wrap .left_box").removeClass("active");
-                    $(".edit_design .slide_wrap .right_box").removeClass("active");
-                    $(".web_port .slide_wrap .left_box .left_web").addClass("active");
-                    $(".web_port .slide_wrap .explain").addClass("active");
+                    $(".introduce .pc_intro_wrap .intro_right").removeClass("active");
+                    $('.pc_intro_right .skill__inner-bar').removeClass('active');
+                    $(".pc_intro_left").removeClass("active");
+                    $(".pc_edit_design .slide_wrap .left_box").removeClass("active");
+                    $(".pc_edit_design .slide_wrap .right_box").removeClass("active");
+                    $(".pc_web_port .slide_wrap .left_box .left_web").addClass("active");
+                    $(".pc_web_port .slide_wrap .explain").addClass("active");
                     $(".Bye footer > div").removeClass("active");
                 }
                 if(index==4) {
-                    $(".introduce .intro_wrap .intro_right").addClass("active");
-                    $('.intro_right .skill__inner-bar').addClass('active');  
-                    $(".intro_left").addClass("active");
-                    $(".edit_design .slide_wrap .left_box").removeClass("active");
-                    $(".edit_design .slide_wrap .right_box").removeClass("active");
-                    $(".web_port .slide_wrap .left_box .left_web").removeClass("active");
-                    $(".web_port .slide_wrap .explain").removeClass("active");
+                    $(".introduce .pc_intro_wrap .intro_right").addClass("active");
+                    $('.pc_intro_right .skill__inner-bar').addClass('active');  
+                    $(".pc_intro_left").addClass("active");
+                    $(".pc_edit_design .slide_wrap .left_box").removeClass("active");
+                    $(".pc_edit_design .slide_wrap .right_box").removeClass("active");
+                    $(".pc_web_port .slide_wrap .left_box .left_web").removeClass("active");
+                    $(".pc_web_port .slide_wrap .explain").removeClass("active");
                     $(".Bye footer > div").removeClass("active");
                 }
                 if(index==5) {
-                    $(".introduce .intro_wrap .intro_right").removeClass("active");
-                    $('.intro_right .skill__inner-bar').removeClass('active');  
-                    $(".intro_left").removeClass("active");
-                    $(".edit_design .slide_wrap .left_box").removeClass("active");
-                    $(".edit_design .slide_wrap .right_box").removeClass("active");
-                    $(".web_port .slide_wrap .left_box .left_web").removeClass("active");
-                    $(".web_port .slide_wrap .explain").removeClass("active");
+                    $(".introduce .pc_intro_wrap .intro_right").removeClass("active");
+                    $('.pc_intro_right .skill__inner-bar').removeClass('active');  
+                    $(".pc_intro_left").removeClass("active");
+                    $(".pc_edit_design .slide_wrap .left_box").removeClass("active");
+                    $(".pc_edit_design .slide_wrap .right_box").removeClass("active");
+                    $(".pc_web_port .slide_wrap .left_box .left_web").removeClass("active");
+                    $(".pc_web_port .slide_wrap .explain").removeClass("active");
                     $(".Bye footer > div").addClass("active");
 
                 }
